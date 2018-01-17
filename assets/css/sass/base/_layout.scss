@@ -1,0 +1,13 @@
+.content {
+  width: 100%;
+  .block--content {
+    min-height: 80vh;
+    border: 1px solid #ddd;
+      .block--content--image {
+        img {
+          width: 700px;
+          max-width: 100%;
+        }
+      }
+  }
+}

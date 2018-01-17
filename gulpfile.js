@@ -6,7 +6,7 @@ var browserSync = require('browser-sync').create();
 var rename = require("gulp-rename");
 var cleanCSS = require('gulp-clean-css');
 
-var input = './assets/css/main.scss';
+var input = './assets/css/sass/main.scss';
 var output = './assets/css';
 
 var sassOptions = {
@@ -25,7 +25,7 @@ gulp.task('serve', ['sass'], function() {
         }
     });
 
-    gulp.watch("assets/css/**/*.scss", ['sass']);
+    gulp.watch("assets/css/sass/**/*.scss", ['sass']);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
 
