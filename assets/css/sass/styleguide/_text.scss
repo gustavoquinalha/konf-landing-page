@@ -52,7 +52,7 @@ p {
 }
 
 a {
-  color: #50fa7b;
+  color: $color-primary;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -60,5 +60,20 @@ a {
 }
 
 a:hover {
-  color: #487552;
+  color: $color-dark;
+}
+
+.box-title {
+  width: 100%;
+  margin-bottom: 30px;
+    h2 {
+      font-size: 22px;
+      line-height: 26px;
+      color: $color-primary;
+    }
+    p {
+      margin-top: 10px;
+      color: $color-gray;
+      font-size: 14px;
+    }
 }

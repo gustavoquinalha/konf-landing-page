@@ -1,5 +1,27 @@
 .menu {
-  height: 60px;
   background: $color-dark;
-  width: 100%;
+  color: $color-white;
+  .menu--content {
+    height: 60px;
+
+    .menu--content--logo {
+      margin-left: 10px;
+    }
+
+    .menu--content--links {
+      ul {
+        list-style: none;
+          li {
+            margin: 10px;
+              a {
+                color: rgba($color-white, .7);
+                  &:hover {
+                    color: rgba($color-white, 1);
+                  }
+              }
+          }
+      }
+    }
+  }
+
 }

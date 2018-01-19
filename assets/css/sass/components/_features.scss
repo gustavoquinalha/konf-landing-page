@@ -1,0 +1,35 @@
+.features {
+  width: 100%;
+  min-height: 200px;
+    .features--card {
+      padding: 30px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+        .features--card--icon {
+          width: 35px;
+          min-width: 35px;
+          margin-right: 20px;
+          height: 35px;
+          border-radius: 4px;
+          background: rgba($color-primary, .3);
+            i {
+              color: $color-primary;
+              font-size: 22px;
+            }
+
+        }
+        .features--card--text {
+          h3 {
+            font-size: 20px;
+            line-height: 20px;
+            color: $color-primary;
+            margin-bottom: 5px;
+          }
+          p {
+            color: $color-gray;
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
+    }
+}
