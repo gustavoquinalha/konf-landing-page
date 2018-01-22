@@ -22,8 +22,13 @@
               font-weight: 900;
               font-size: 18px;
             }
+            .footer--content--item--img {
 
-
+              img {
+                max-width: 90%;
+                margin-right: 10px;
+              }
+            }
         }
     }
 }
