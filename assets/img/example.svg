@@ -3,12 +3,12 @@
 <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 182.4" style="enable-background:new 0 0 500 182.4;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#735496;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:10;}
+	.st0{fill:none;stroke:#5129D7;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:10;}
 	.st1{fill:#FFFFFF;}
 	.st2{fill:none;stroke:#A3A3A3;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:10.1312,10.1312;}
-	.st3{fill:none;stroke:#735496;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:5.8658,5.8658;}
-	.st4{fill:#735496;}
-	.st5{fill:#FFFFFF;stroke:#735496;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#5129D7;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:5.8658,5.8658;}
+	.st4{fill:#5129D7;}
+	.st5{fill:#FFFFFF;stroke:#5129D7;stroke-width:3;stroke-miterlimit:10;}
 </style>
 <line class="st0" x1="191.4" y1="94.3" x2="319.1" y2="94.3"/>
 <g>
@@ -20,7 +20,7 @@
 		<g>
 			<g>
 				<circle class="st1" cx="76.6" cy="115.4" r="20.5"/>
-				
+
 					<ellipse transform="matrix(0.2567 -0.9665 0.9665 0.2567 -54.6077 159.7946)" class="st3" cx="76.6" cy="115.4" rx="20.5" ry="20.5"/>
 			</g>
 			<g>

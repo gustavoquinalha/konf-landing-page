@@ -1,11 +1,15 @@
 .menu {
-  background: $color-dark;
+  background: $color1;
   color: $color-white;
   .menu--content {
-    height: 60px;
+    height: 80px;
 
     .menu--content--logo {
       margin-left: 10px;
+        img {
+          width: 70px;
+          max-width: 100%;
+        }
     }
 
     .menu--content--links {
@@ -20,6 +24,15 @@
                   }
               }
           }
+      }
+      @media (max-width: 768px) {
+        display: none
+      }
+    }
+    .menu--content--resposnive {
+      display: none;
+      @media (max-width: 768px) {
+        display: block
       }
     }
   }

@@ -1,20 +1,19 @@
 .header {
-  // min-height: calc(100vh - 60px);
-  min-height: 300px;
+  min-height: 500px;
   width: 100%;
-  background-color: $color-dark;
+  background-color: $color2;
   color: $color-white;
   padding: 30px;
   box-sizing: border-box;
-    span {
-      font-size: 16px;
-      opacity: .7;
-    }
-    h1 {
-      font-size: 6rem;
-      line-height: 6rem;
-    }
-    code {
-      font-size: 14px;
+    .header--block {
+      width: 500px;
+      max-width: 90%;
+      overflow: hidden;
+      .header--block--logo {
+        img {
+          width: 300px;
+          max-width: 100%;
+        }
+      }
     }
 }

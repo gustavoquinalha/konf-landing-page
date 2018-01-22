@@ -1,0 +1,33 @@
+.code-block {
+  background: $color-dark;
+  padding: 20px;
+  min-height: 120px;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  overflow: auto;
+  margin: 20px auto;
+  .code-block--header {
+    margin-bottom: 15px;
+      .code-block--header--ball {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: $color-primary;
+        margin-right: 5px;
+      }
+  }
+    pre {
+      height: auto;
+      font-size: 16px;
+      box-sizing: border-box;
+      margin: 0!important;
+      line-height: 18px;
+      overflow: hidden;
+      width: 400px;
+      max-width: 100%;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      overflow-x: auto;
+    }
+}
