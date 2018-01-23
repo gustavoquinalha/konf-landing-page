@@ -1,12 +1,12 @@
 .header {
-  min-height: 500px;
   width: 100%;
   background: url(./../img/grid.svg), linear-gradient(-90deg, $color2, $color1);
   background-position: center center;
   background-size: 300px, 100%;
   color: $color-white;
-  padding: 30px;
+  padding: 100px 0 0;
   box-sizing: border-box;
+  overflow: hidden;
 
   .header--block {
     width: 500px;
@@ -22,6 +22,10 @@
 
     .header--block--code {
       width: 100%;
+
+      .code-block {
+        transform: translateY(10px);
+      }
     }
   }
 }
