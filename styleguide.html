@@ -12,11 +12,12 @@
 
 <body>
 
+  <!-- menu -->
   <nav>
     <div class="menu">
       <div class="menu--content container align-items-center justify-content-between size margin">
         <div class="menu--content--logo">
-          <span>KONF</span>
+          <img src="./assets/img/logo.svg" alt="">
         </div>
         <div class="menu--content--links">
           <ul class="container align-items-center">
@@ -32,17 +33,34 @@
       </div>
     </div>
   </nav>
+  <!-- menu -->
 
+  <!-- banner principal -->
   <header>
     <div class="header container column align-center">
-      <span>Uma frase bem marcante e talz</span>
-      <h1>KONF</h1>
-      <code>
-          $ npm install -g konf
-        </code>
+      <div class="header--block container column align-center">
+        <div class="header--block--text container column align-center">
+          <h1>Konf é uma CLI que provê sites para conferências e eventos.</h1>
+        </div>
+        <div class="header--block--code container align-center">
+          <div class="code-block">
+            <div class="code-block--header container align-items-center justify-content-start">
+              <div class="code-block--header--ball"></div>
+              <div class="code-block--header--ball"></div>
+              <div class="code-block--header--ball"></div>
+            </div>
+            <pre><code>$ npm install -g konf</code></pre>
+          </div>
+        </div>
+        <div class="">
+          <button type="button" class="btn btnt-rounded btn-primary">Github</button>
+          <button type="button" class="btn btnt-rounded btn-secundary">Getting Started</button>
+        </div>
+      </div>
+
     </div>
   </header>
-
+  <!-- banner principal -->
 
   <div class="content">
     <div class="block--content size margin">
@@ -86,12 +104,15 @@
 
   </div>
 
+  <!-- footer -->
   <footer>
     <div class="footer container align-center">
-      <div class="footer--content size container align-items-center justify-content-between wrap">
+      <div class="footer--content size container align-center wrap">
         <div class="footer--content--item rights col-4 col-xl-3 col-lg-4 col-md-4 container column">
-          <span>KONF</span>
-          <p>All rights reserveds. 2018.</p>
+          <div class="footer--content--item--img">
+            <img src="./assets/img/logo-icon.svg" alt="" width="120">
+          </div>
+          <p>All rights reserved. 2018.</p>
         </div>
         <div class="footer--content--item col-4 col-xl-3 col-lg-4 col-md-4">
           <div class="footer--content--item-text">
@@ -128,6 +149,7 @@
       </div>
     </div>
   </footer>
+  <!-- footer -->
 
   <!-- Place this tag in your head or just before your close body tag. -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
