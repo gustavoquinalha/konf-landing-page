@@ -1,38 +1,45 @@
 .menu {
-  background: $color1;
+  background: #fff;
   color: $color-white;
+
   .menu--content {
     height: 80px;
 
     .menu--content--logo {
       margin-left: 10px;
-        img {
-          width: 70px;
-          max-width: 100%;
-        }
+
+      img {
+        width: 120px;
+        max-width: 100%;
+      }
     }
 
     .menu--content--links {
       ul {
         list-style: none;
-          li {
-            margin: 10px;
-              a {
-                color: rgba($color-white, .7);
-                  &:hover {
-                    color: rgba($color-white, 1);
-                  }
-              }
+
+        li {
+          margin: 10px;
+
+          a {
+            font-size: 14px;
+            color: $color1;
+
+            &:hover {
+              color: $color3;
+            }
           }
+        }
       }
       @media (max-width: 768px) {
-        display: none
+        display: none;
       }
     }
+
     .menu--content--resposnive {
       display: none;
       @media (max-width: 768px) {
-        display: block
+        display: block;
       }
     }
   }

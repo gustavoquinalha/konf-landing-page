@@ -17,19 +17,27 @@
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: .15s ease-in-out;
     background: #ddd;
     color: #333;
+    &:hover {
+      background: $color3;
+      color: $color2
+    }
 }
 
 .btn-primary {
     color: #fff;
-    background-color: $color-primary;
-    border-color: $color-primary;
+    background-color: $color1;
+    border-color: $color1;
 }
 
 .btn-secundary {
     color: #fff;
-    background-color: $color-secundary;
-    border-color: $color-secundary;
+    background-color: $color2;
+    border-color: $color2;
+}
+
+.btnt-rounded {
+  border-radius: 4rem;
 }

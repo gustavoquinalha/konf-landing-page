@@ -1,19 +1,27 @@
 .header {
   min-height: 500px;
   width: 100%;
-  background-color: $color2;
+  background: url(./../img/grid.svg), linear-gradient(-90deg, $color2, $color1);
+  background-position: center center;
+  background-size: 300px, 100%;
   color: $color-white;
   padding: 30px;
   box-sizing: border-box;
-    .header--block {
-      width: 500px;
-      max-width: 90%;
-      overflow: hidden;
-      .header--block--logo {
-        img {
-          width: 300px;
-          max-width: 100%;
-        }
+
+  .header--block {
+    width: 500px;
+    max-width: 90%;
+
+    .header--block--text {
+      h1 {
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
       }
     }
+
+    .header--block--code {
+      width: 100%;
+    }
+  }
 }
