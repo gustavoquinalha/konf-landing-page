@@ -272,7 +272,7 @@ a:hover {
 
 .header {
   width: 100%;
-  background: url(./../img/grid.svg), linear-gradient(-90deg, #5129D7, #3F25A2);
+  background: linear-gradient(-90deg, #5129D7, #3F25A2);
   background-position: center center;
   background-size: 300px, 100%;
   color: #fff;
