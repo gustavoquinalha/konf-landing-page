@@ -6,7 +6,8 @@
   border-radius: 4px;
   padding: 20px;
   box-sizing: border-box;
-  margin: 20px auto 0 auto;
+  margin: 20px auto 0;
+  box-shadow: 0 0 40px 0 rgba(0,0,0,.3);
 
   .code-block--header {
     margin-bottom: 15px;

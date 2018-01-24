@@ -16,6 +16,13 @@
         max-width: 100%;
       }
     }
+
+    &.block--content__dashed-bg {
+      background: url(./../img/dashed.svg), #fff;
+      background-position: top center;
+      background-size: 300px;
+      background-repeat: repeat-y;
+    }
   }
 
   .block--content-gray {
