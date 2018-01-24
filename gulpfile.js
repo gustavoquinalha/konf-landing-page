@@ -34,6 +34,17 @@ gulp.task('sass', function() {
         .src(input)
         .pipe(sourcemaps.init())
         .pipe(sass(sassOptions).on('error', sass.logError))
+        .pipe(autoprefixer(autoprefixerOptions))
+        .pipe(rename("style.css"))
+        .pipe(gulp.dest(output))
+        .pipe(browserSync.stream());
+});
+
+gulp.task('minsass', function() {
+    return gulp
+        .src(input)
+        .pipe(sourcemaps.init())
+        .pipe(sass(sassOptions).on('error', sass.logError))
         .pipe(sourcemaps.write())
         .pipe(autoprefixer(autoprefixerOptions))
         .pipe(cleanCSS({compatibility: 'ie8'}))
@@ -42,12 +53,11 @@ gulp.task('sass', function() {
         .pipe(browserSync.stream());
 });
 
-
 gulp.task('watch', function() {
   return gulp
     // Watch the input folder for change,
     // and run `sass` task when something happens
-    .watch(input, ['sass'])
+    .watch(input, ['sass', 'minsass'])
     // When there is a change,
     // log a message in the console
     .on('change', function(event) {

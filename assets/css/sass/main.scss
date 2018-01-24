@@ -1,11 +1,13 @@
 // Base
 @import "base/variables";
 @import "base/reset";
-@import "base/layout";
 
 // styleguide
-@import "styleguide/buttons";
 @import "styleguide/text";
+@import "styleguide/buttons";
+
+// Layout
+@import "base/layout";
 
 // components
 @import "components/menu";
