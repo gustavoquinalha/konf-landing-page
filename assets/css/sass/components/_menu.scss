@@ -1,5 +1,4 @@
 .menu {
-  background: linear-gradient(-90deg, $color2, $color1);
   color: $color-white;
 
   .menu--content {
@@ -19,19 +18,18 @@
         list-style: none;
 
         li {
-
           a {
             color: $color-white;
             font-weight: bold;
             margin: 2px;
             padding: 8px 12px;
             border-radius: 20px;
-            transition: .3s;
+            transition: 0.3s;
 
             &.active,
             &:hover {
               color: $color-white;
-              background: $color1;
+              background: $color-primary;
             }
           }
         }
@@ -41,12 +39,25 @@
       }
     }
 
-    .menu--content--resposnive {
+    .menu--content--responsive {
       display: none;
+      align-items: center;
+      justify-content: center;
+      background: $color1;
+      color: $color3;
+      width: 30px;
+      height: 30px;
+      border-radius: 10px;
+      transition: 0.15s ease-in-out;
+
+      &:hover {
+        color: #fff;
+        transform: scale(1.1, 1.1);
+      }
+      cursor: pointer;
       @media (max-width: 768px) {
-        display: block;
+        display: flex;
       }
     }
   }
-
 }

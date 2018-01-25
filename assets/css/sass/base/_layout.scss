@@ -31,6 +31,10 @@
 
   .block--content-primary {
     background: $color-primary;
+    background: url(./../img/grid2.svg), linear-gradient(-90deg, $color2, $color1);
+    background-position: center -50px, 100%;
+    background-size: 110%, 100%;
+    background-repeat: repeat-x;
   }
 }
 
