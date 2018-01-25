@@ -1,5 +1,5 @@
 .menu {
-  background: #fff;
+  background: linear-gradient(-90deg, $color2, $color1);
   color: $color-white;
 
   .menu--content {
@@ -9,7 +9,7 @@
       margin-left: 10px;
 
       img {
-        width: 120px;
+        width: 100px;
         max-width: 100%;
       }
     }
@@ -19,14 +19,19 @@
         list-style: none;
 
         li {
-          margin: 10px;
 
           a {
-            font-size: 14px;
-            color: $color1;
+            color: $color-white;
+            font-weight: bold;
+            margin: 2px;
+            padding: 8px 12px;
+            border-radius: 20px;
+            transition: .3s;
 
+            &.active,
             &:hover {
-              color: $color3;
+              color: $color-white;
+              background: $color1;
             }
           }
         }

@@ -1,6 +1,7 @@
 .header {
   width: 100%;
-  background: url(./../img/grid.svg), linear-gradient(-90deg, $color2, $color1);
+  // background: url(./../img/grid.svg), linear-gradient(-90deg, $color2, $color1);
+  background: linear-gradient(-90deg, $color2, $color1);
   background-position: 0 -70px, 100%;
   background-size: 150%;
   background-repeat: no-repeat;
