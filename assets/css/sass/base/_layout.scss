@@ -12,7 +12,7 @@
 
     .block--content--image {
       img {
-        width: 700px;
+        width: 600px;
         max-width: 100%;
       }
     }
@@ -53,4 +53,8 @@
   border-radius: 10px;
   background-color: $color2;
   box-sizing: border-box;
+}
+
+.full-height {
+  min-height: 100vh
 }

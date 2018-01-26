@@ -13,74 +13,94 @@
 
 <body>
 
-<div class="background-primary">
-  <!-- menu -->
-  <nav>
-    <div class="menu">
-      <div class="menu--content container align-items-center justify-content-between size margin">
-        <div class="menu--content--logo">
-          <img src="./assets/img/logo-white.svg" alt="">
-        </div>
-        <div class="menu--content--links">
-          <ul class="container align-items-center">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Docs</a></li>
-            <li><a href="#">Getting Started</a></li>
-            <li>
-              <a class="github-button" href="https://github.com/gustavoquinalha/konf-landing-page" data-size="large" data-show-count="true" aria-label="Star gustavoquinalha/konf-landing-page on GitHub">Star</a>
-            </li>
-          </ul>
-        </div>
-        <div class="menu--content--responsive">
-          <i class="fa fa-bars" aria-hidden="true"></i>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <!-- menu -->
-
-  <!-- banner principal -->
-  <header>
-    <div class="header container column align-center">
-      <div class="header--block container column align-center">
-        <div class="header--block--text container column align-center">
-          <h1>Konf é uma CLI que provê sites para conferências e eventos.</h1>
-          <div class="margin-top-20">
-            <button type="button" class="btn btn-rounded btn-primary">Github</button>
-            <button type="button" class="btn btn-rounded btn-border">Getting Started</button>
+  <div class="background-primary">
+    <!-- menu -->
+    <nav>
+      <div class="menu">
+        <div class="menu--content container align-items-center justify-content-between size margin">
+          <div class="menu--content--logo">
+            <img src="./assets/img/logo-white.svg" alt="">
+          </div>
+          <div class="menu--content--links">
+            <ul class="container align-items-center">
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">Docs</a></li>
+              <li><a href="#">Getting Started</a></li>
+              <li>
+                <a class="github-button" href="https://github.com/gustavoquinalha/konf-landing-page" data-size="large" data-show-count="true" aria-label="Star gustavoquinalha/konf-landing-page on GitHub">Star</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu--content--responsive">
+            <i class="fa fa-bars" aria-hidden="true"></i>
           </div>
         </div>
-        <div class="header--block--code container align-center">
-          <div class="code-block">
-            <div class="code-block--header container align-items-center justify-content-start">
-              <div class="code-block--header--ball"></div>
-              <div class="code-block--header--ball"></div>
-              <div class="code-block--header--ball"></div>
+      </div>
+    </nav>
+    <!-- menu -->
+
+    <!-- banner principal -->
+    <header>
+      <div class="header container column align-center">
+        <div class="header--block container column align-center">
+          <div class="header--block--text container column align-center">
+            <h1>Konf é uma CLI que provê sites para conferências e eventos.</h1>
+            <div class="margin-top-20">
+              <button type="button" class="btn btn-rounded btn-primary">Github</button>
+              <button type="button" class="btn btn-rounded btn-border">Getting Started <i class="fa fa-arrow-right"></i></button>
             </div>
-            <pre><code>$ npm install -g konf</code></pre>
+          </div>
+          <div class="header--block--code container align-center">
+            <div class="code-block">
+              <div class="code-block--header container align-items-center justify-content-start">
+                <div class="code-block--header--ball"></div>
+                <div class="code-block--header--ball"></div>
+                <div class="code-block--header--ball"></div>
+              </div>
+              <pre><code>$ npm install -g konf</code></pre>
+            </div>
           </div>
         </div>
-
       </div>
-
-    </div>
-  </header>
-  <!-- banner principal -->
-</div>
+    </header>
+    <!-- banner principal -->
+  </div>
 
   <!-- conteudos -->
   <div class="content">
-    <div class="block--content block--content__dashed-bg container align-center size margin">
+
+    <!-- img exemplo -->
+    <div class="block--content block--content__dashed-bg container wrap align-center size margin">
       <div class="block--content--image container column align-center">
         <div class="box-title text-align-center">
           <h2>API creation made simple, secure and fast.</h2>
           <p>Building performant, secure and scalable production-ready API has never been faster.</p>
         </div>
-        <img src="./assets/img/example.svg" width="100%" alt="">
+        <!-- <img src="./assets/img/example.svg" width="100%" alt=""> -->
+        <img src="./assets/img/teste.png" width="100%" alt="">
       </div>
     </div>
+    <!-- img exemplo -->
 
-    <div class="block--content block--content-gray">
+    <!-- contribuitng -->
+    <div class="block--content container align-center size margin contributing">
+      <div class="contribuitng--block container wrap align-center">
+        <div class="contribuitng--block--image">
+          <img src="./assets/img/github.svg" width="100%" alt="">
+        </div>
+        <div class="contribuitng--block--text">
+          <h3>Try WeDeploy for FREE today.</h3>
+          <p>Join our active community to share, learn, and discover how others are using WeDeploy.</p>
+          <div class="margin-top-20">
+            <button type="button" class="btn btn-rounded btn-border btn-border-primary">Github</button>
+            <button type="button" class="btn btn-rounded btn-secundary">Getting Started <i class="fa fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contribuitng -->
+
+    <div class="block--content block--content-gray block--content__dashed-bg">
       <div class="block--content--features size margin">
         <div class="box-title text-align-center">
           <h2>Drastically reduce your API development time.</h2>
@@ -90,10 +110,10 @@
         <div class="features container wrap">
           <!-- card -->
           <div class="features--card container col-12 col-xl-4 col-lg-4 col-md-6">
-            <div class="features--card--icon container align-center">
-              <i class="fab fa-algolia"></i>
-            </div>
-            <div class="features--card--text">
+            <div class="features--card--text container align-center column">
+              <div class="features--card--icon container align-center">
+                <i class="fa fa-code-branch"></i>
+              </div>
               <h3>Modern Admin Panel</h3>
               <p>Elegant, entirely customizable and fully extensible admin panel with headless CMS capabilities. Configure and manage your API within a few clicks.</p>
             </div>
@@ -101,54 +121,54 @@
           <!-- card -->
           <!-- card -->
           <div class="features--card container col-12 col-xl-4 col-lg-4 col-md-6">
-            <div class="features--card--icon container align-center">
-              <i class="fab fa-algolia"></i>
-            </div>
-            <div class="features--card--text">
-              <h3>Modern Admin Panel</h3>
-              <p>Elegant, entirely customizable and fully extensible admin panel with headless CMS capabilities. Configure and manage your API within a few clicks.</p>
-            </div>
-          </div>
-          <!-- card -->
-          <!-- card -->
-          <div class="features--card container col-12 col-xl-4 col-lg-4 col-md-6">
-            <div class="features--card--icon container align-center">
-              <i class="fab fa-algolia"></i>
-            </div>
-            <div class="features--card--text">
-              <h3>Modern Admin Panel</h3>
-              <p>Elegant, entirely customizable and fully extensible admin panel with headless CMS capabilities. Configure and manage your API within a few clicks.</p>
+            <div class="features--card--text container align-center column">
+              <div class="features--card--icon container align-center">
+                <i class="fa fa-copy"></i>
+              </div>
+              <h3>Build Faster</h3>
+              <p>Deploy using one command with our intelligent code detection or utilize our services to augment your app with realtime data streaming and search, user authentication, transactional emails and much more.</p>
             </div>
           </div>
           <!-- card -->
           <!-- card -->
           <div class="features--card container col-12 col-xl-4 col-lg-4 col-md-6">
-            <div class="features--card--icon container align-center">
-              <i class="fab fa-algolia"></i>
-            </div>
-            <div class="features--card--text">
-              <h3>Modern Admin Panel</h3>
-              <p>Elegant, entirely customizable and fully extensible admin panel with headless CMS capabilities. Configure and manage your API within a few clicks.</p>
-            </div>
-          </div>
-          <!-- card -->
-          <!-- card -->
-          <div class="features--card container col-12 col-xl-4 col-lg-4 col-md-6">
-            <div class="features--card--icon container align-center">
-              <i class="fab fa-algolia"></i>
-            </div>
-            <div class="features--card--text">
-              <h3>Modern Admin Panel</h3>
-              <p>Elegant, entirely customizable and fully extensible admin panel with headless CMS capabilities. Configure and manage your API within a few clicks.</p>
+            <div class="features--card--text container align-center column">
+              <div class="features--card--icon container align-center">
+                <i class="fa fa-chart-line"></i>
+              </div>
+              <h3>Stay in Control</h3>
+              <p>Check usage metrics, collaborator activities and application logs to troubleshoot bugs. Allow secure communication between services via private network hostname, facilitating database usage.</p>
             </div>
           </div>
           <!-- card -->
           <!-- card -->
           <div class="features--card container col-12 col-xl-4 col-lg-4 col-md-6">
-            <div class="features--card--icon container align-center">
-              <i class="fab fa-algolia"></i>
+            <div class="features--card--text container align-center column">
+              <div class="features--card--icon container align-center">
+                <i class="fa fa-rocket"></i>
+              </div>
+              <h3>Build Faster</h3>
+              <p>Deploy using one command with our intelligent code detection or utilize our services to augment your app with realtime data streaming and search, user authentication, transactional emails and much more.</p>
             </div>
-            <div class="features--card--text">
+          </div>
+          <!-- card -->
+          <!-- card -->
+          <div class="features--card container col-12 col-xl-4 col-lg-4 col-md-6">
+            <div class="features--card--text container align-center column">
+              <div class="features--card--icon container align-center">
+                <i class="fa fa-sitemap"></i>
+              </div>
+              <h3>Stay in Control</h3>
+              <p>Check usage metrics, collaborator activities and application logs to troubleshoot bugs. Allow secure communication between services via private network hostname, facilitating database usage.</p>
+            </div>
+          </div>
+          <!-- card -->
+          <!-- card -->
+          <div class="features--card container col-12 col-xl-4 col-lg-4 col-md-6">
+            <div class="features--card--text container align-center column">
+              <div class="features--card--icon container align-center">
+                <i class="fa fa-paper-plane"></i>
+              </div>
               <h3>Modern Admin Panel</h3>
               <p>Elegant, entirely customizable and fully extensible admin panel with headless CMS capabilities. Configure and manage your API within a few clicks.</p>
             </div>
@@ -159,7 +179,7 @@
     </div>
 
     <!-- features 2 -->
-    <div class="block--content block--content__dashed-bg">
+    <!-- <div class="block--content block--content__dashed-bg">
       <div class="size margin">
         <div class="box-title text-align-center">
           <h2>API creation made simple, secure and fast.</h2>
@@ -189,10 +209,10 @@
 
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- features 2 -->
 
-    <div class="block--content block--content-primary">
+    <div class="block--content block--content-primary  full-height container align-center">
       <div class="getting-started container wrap-reverse size margin">
 
         <div class="getting-started--code code-block code-block__min-height flex-grow-2 flex-basis-400">
@@ -271,13 +291,13 @@ $ konf init
   <footer>
     <div class="footer container align-center">
       <div class="footer--content size container align-center wrap">
-        <div class="footer--content--item rights col-4 col-xl-3 col-lg-4 col-md-4 container column">
-          <div class="footer--content--item--img">
+        <div class="footer--content--item rights flex-basis-200 container column">
+          <div class="footer--content--item--img margin-bottom-10">
             <img src="./assets/img/logo-icon.svg" alt="" width="120">
           </div>
           <p>All rights reserved. 2018.</p>
         </div>
-        <div class="footer--content--item col-4 col-xl-3 col-lg-4 col-md-4">
+        <div class="footer--content--item flex-basis-200">
           <div class="footer--content--item-text">
             <span>Developer</span>
           </div>
@@ -288,7 +308,7 @@ $ konf init
             <li><a href="#">License</a> </li>
           </ul>
         </div>
-        <div class="footer--content--item col-4 col-xl-3 col-lg-4 col-md-4">
+        <div class="footer--content--item flex-basis-200">
           <div class="footer--content--item-text">
             <span>Developer</span>
           </div>
@@ -299,7 +319,7 @@ $ konf init
             <li><a href="#">License</a> </li>
           </ul>
         </div>
-        <div class="footer--content--item col-4 col-xl-3 col-lg-4 col-md-4">
+        <div class="footer--content--item flex-basis-200">
           <div class="footer--content--item-text">
             <span>Follow us</span>
           </div>

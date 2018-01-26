@@ -25,6 +25,15 @@
     border: 1px solid $color-white;
     background: transparent;
     color: $color-white;
+
+    &.btn-border-primary {
+      border-color: $color-secundary;
+      color: $color-secundary;
+        &:hover {
+          background: $color-primary;
+          color: $color-white;
+        }
+    }
   }
 
   &:hover {
