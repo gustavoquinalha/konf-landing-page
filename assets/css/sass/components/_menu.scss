@@ -1,5 +1,16 @@
+html.menu-open {
+  .menu {
+    background: linear-gradient(-30deg, $color1, $color2, $color2, $color1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
+
 .menu {
   color: $color-white;
+  position: relative;
+  z-index: 10;
 
   .menu--content {
     height: 80px;
@@ -34,8 +45,43 @@
           }
         }
       }
+      // @media (max-width: 768px) {
+      //   display: none;
+      // }
       @media (max-width: 768px) {
         display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background: $color-primary;
+        // box-shadow: 0 33px 50px 14px rgba(0,0,0,.5);
+        width: 100%;
+        z-index: 100;
+        padding: 30px 0;
+
+        ul {
+          flex-direction: column;
+          width: 100%;
+
+          li {
+            margin: 20px;
+            box-sizing: border-box;
+          }
+        }
+      }
+
+      &.open {
+        display: flex;
+        animation: .3s showMenu;
+        overflow: hidden;
+        @keyframes showMenu {
+          from {
+            height: 0;
+          }
+          to {
+            height: 300px;
+          }
+        }
       }
     }
 
@@ -59,5 +105,25 @@
         display: flex;
       }
     }
+  }
+}
+
+
+@media (max-width: 839px) {
+  html::after {
+      background-color: rgba(0,0,0,.8);
+      content: "";
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      opacity: 0;
+      position: fixed;
+      transition: opacity .6s;
+      z-index: -1;
+  }
+  html.menu-open::after {
+      opacity: 1;
+      z-index: 0;
   }
 }
