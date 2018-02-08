@@ -1,26 +1,31 @@
 .contributing {
   border: 2px solid $color-secundary;
   border-radius: 4px;
-  padding: 50px!important;
-    .contribuitng--block {
-      padding: 20px;
-      box-sizing: border-box;
-      .btn {
-        margin-bottom: 10px;
-      }
-      .contribuitng--block--image {
-        flex-basis: 300px;
-          img {
-            max-width: 200px;
-            min-width: 100px
-          }
-      }
-      .contribuitng--block--text {
-        flex-basis: 500px;
-      }
+  padding: 50px!important !important;
 
-      > div {
-        margin: 10px;
+  .contribuitng--block {
+    padding: 20px;
+    box-sizing: border-box;
+
+    .btn {
+      margin-bottom: 10px;
+    }
+
+    .contribuitng--block--image {
+      flex-basis: 300px;
+
+      img {
+        max-width: 200px;
+        min-width: 100px;
       }
     }
+
+    .contribuitng--block--text {
+      flex-basis: 500px;
+    }
+
+    > div {
+      margin: 10px;
+    }
+  }
 }

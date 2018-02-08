@@ -7,7 +7,6 @@
     box-sizing: border-box;
     margin-bottom: 20px;
 
-
     .features--card--icon {
       width: 70px;
       min-width: 70px;
@@ -19,20 +18,20 @@
       i {
         color: $color-secundary;
         font-size: 26px;
-        transition: .3s;
+        transition: 0.3s;
       }
 
     }
 
     .features--card--text {
       text-align: center;
-      
+
       h3 {
         font-size: 22px;
         line-height: 24px;
         color: $color-black;
         margin-bottom: 5px;
-        transition: .3s;
+        transition: 0.3s;
       }
 
       p {
@@ -49,6 +48,7 @@
           color: $color-secundary;
         }
       }
+
       .features--card--icon {
         i {
           font-size: 36px;
