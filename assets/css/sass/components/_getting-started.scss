@@ -1,7 +1,22 @@
 .getting-started {
   color: $color-white;
 
-  .getting-started--code {}
+  .getting-started--code {
+    pre {
+      height: 300px;
+    }
+
+    .getting-started--code--tabcontent {
+      display: none;
+      animation: 0.5s fade;
+      @keyframes fade {
+        from {
+          opacity: 0;
+          transform: translateY(50px);
+        }
+      }
+    }
+  }
 
   .getting-started--list {
     margin: 20px 0 0 20px;
