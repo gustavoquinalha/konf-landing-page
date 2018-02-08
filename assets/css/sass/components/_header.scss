@@ -28,7 +28,7 @@
 }
 
 .background-primary {
-  background: url(./../img/grid.svg), linear-gradient(-30deg, $color1, $color2, $color2, $color1);
+  background: url(./../img/grid.svg), linear-gradient(-30deg, $color-primary, $color-secundary, $color-secundary, $color-primary);
   background-position: center bottom, 100%;
   background-size: 110%, 100%;
   background-repeat: repeat-x;

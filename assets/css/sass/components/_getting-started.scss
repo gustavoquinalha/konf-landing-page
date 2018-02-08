@@ -14,7 +14,7 @@
         padding: 15px;
         margin-bottom: 5px;
         border-radius: 4px;
-        color: $color3;
+        color: $color-medium;
         display: flex;
         align-items: center;
         cursor: pointer;
@@ -34,12 +34,12 @@
 
         &.selected,
         &:hover {
-          background: linear-gradient(-90deg, $color1, $color2);
+          background: linear-gradient(-90deg, $color-primary, $color-secundary);
           color: $color-white;
 
           .block-number {
-            background: $color1;
-            border: 1px solid $color1;
+            background: $color-primary;
+            border: 1px solid $color-primary;
           }
         }
 

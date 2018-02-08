@@ -31,7 +31,7 @@
 
   .block--content-primary {
     background: $color-primary;
-    background: url(./../img/grid2.svg), linear-gradient(-90deg, $color2, $color1);
+    background: url(./../img/grid2.svg), linear-gradient(-90deg, $color-secundary, $color-primary);
     background-position: center -50px, 100%;
     background-size: 110%, 100%;
     background-repeat: repeat-x;
@@ -51,7 +51,7 @@
 
 *.code-block pre::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: $color2;
+  background-color: $color-secundary;
   box-sizing: border-box;
 }
 

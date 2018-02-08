@@ -38,20 +38,20 @@
 
   &:hover {
     background: $color-white;
-    color: $color2;
+    color: $color-secundary;
   }
 }
 
 .btn-primary {
   color: $color-white;
-  background-color: $color1;
-  border-color: $color1;
+  background-color: $color-primary;
+  border-color: $color-primary;
 }
 
 .btn-secundary {
   color: $color-white;
-  background-color: $color2;
-  border-color: $color2;
+  background-color: $color-secundary;
+  border-color: $color-secundary;
 }
 
 .btn-rounded {

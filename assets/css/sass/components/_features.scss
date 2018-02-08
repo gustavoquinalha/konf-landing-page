@@ -14,10 +14,10 @@
       height: 70px;
       margin: 0 20px 20px 0;
       border-radius: 50%;
-      background: rgba($color2, .1);
+      background: rgba($color-secundary, .1);
 
       i {
-        color: $color2;
+        color: $color-secundary;
         font-size: 26px;
         transition: .3s;
       }
@@ -46,7 +46,7 @@
     &:hover {
       .features--card--text {
         h3 {
-          color: $color2;
+          color: $color-secundary;
         }
       }
       .features--card--icon {

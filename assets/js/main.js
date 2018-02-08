@@ -18,5 +18,18 @@ document.addEventListener('DOMContentLoaded', function() {
     iconMenu.classList.toggle("fa-times");
   });
 
+  var scrollpos = window.scrollY;
+  var menuClass = document.getElementById("menu");
+
+  window.addEventListener('scroll', function(){
+     scrollpos = window.scrollY;
+     if(scrollpos > 200){
+        menuClass.classList.add("menu-fixed");
+     }
+     else {
+         menuClass.classList.remove("menu-fixed");
+     }
+  });
+
 
 });
